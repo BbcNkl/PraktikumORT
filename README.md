@@ -1,2 +1,2 @@
-# PraktikumORT
-Vežbe za praktikum iz osnova računarske tehnike
+# Praktikum iz osnova računarske tehnike
+Primeri iz programa Logisim, LTspice...
