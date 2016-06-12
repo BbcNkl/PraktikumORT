@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.ncd
+OUTFILE=/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/root/Projects/Xilinx/Morzeova_Azbuka
+LICENSE=WebPack
+USER_INFO=211167970_0_0_750

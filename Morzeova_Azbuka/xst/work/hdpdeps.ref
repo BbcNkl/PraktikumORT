@@ -1,0 +1,9 @@
+V3 3
+FL /root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.vhd 2016/06/09.11:23:09 P.20131013
+EN work/morzeova_azbuka 1465464211 \
+      FL /root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/morzeova_azbuka/Behavioral 1465464212 \
+      FL /root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.vhd \
+      EN work/morzeova_azbuka 1465464211

@@ -1,0 +1,74 @@
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s1200e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s1200e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 
+xst -intstyle ise -ifn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.xst" -ofn "/root/Projects/Xilinx/Morzeova_Azbuka/morzeova_azbuka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc implementacija.ucf -p xc3s500e-fg320-5 morzeova_azbuka.ngc morzeova_azbuka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o morzeova_azbuka_map.ncd morzeova_azbuka.ngd morzeova_azbuka.pcf 
+par -w -intstyle ise -ol high -t 1 morzeova_azbuka_map.ncd morzeova_azbuka.ncd morzeova_azbuka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml morzeova_azbuka.twx morzeova_azbuka.ncd -o morzeova_azbuka.twr morzeova_azbuka.pcf -ucf implementacija.ucf 
+bitgen -intstyle ise -f morzeova_azbuka.ut morzeova_azbuka.ncd 

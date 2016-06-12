@@ -1,0 +1,4 @@
+NET CLK LOC = "B8";
+NET RESET LOC = "H13";
+
+NET LED LOC = "J15";
