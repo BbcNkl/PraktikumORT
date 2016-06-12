@@ -148,7 +148,7 @@ int main()
     header = fopen("header.txt", "r");
     if(header == NULL)
     {
-        printf("Грешка при отварању датотеке! Проверите да ли се header.txt налази у истом фолдеру!");
+        printf("Грешка при отварању датотеке! Проверите да ли се header.txt налази у истом фолдеру!\n");
         return 0;
     }
     do
@@ -188,7 +188,7 @@ int main()
     footer = fopen("footer.txt", "r");
     if(footer == NULL)
     {
-        printf("Грешка при отварању датотеке! Проверите да ли се footer.txt налази у истом фолдеру!");
+        printf("Грешка при отварању датотеке! Проверите да ли се footer.txt налази у истом фолдеру!\n");
         return 0;
     }
     j = 0;
@@ -206,6 +206,6 @@ int main()
     }
     fclose(vhdl);
 
-    printf("VHDL датотека (morzeova_azbuka.vhd) је спремна. ");
+    printf("VHDL датотека (morzeova_azbuka.vhd) је спремна.\n");
     return 0;
 }
